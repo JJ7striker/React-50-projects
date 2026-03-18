@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b1b1b;
+}
+
+.counter-card {
+    margin-top:150px;
+    color: #fff;
+    width: 50%;
+    height: auto;
+}
+
+.counter-card h2 {
+    font-size: 3rem;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+ .counter_section {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    flex-direction: row;
+}
+
+.counter_section h2 {
+    font-size: 5rem;
+}
+
+.counter_section button {
+    width: 90px;
+    height: auto;
+    border-radius: 50%;
+    font-size: 5rem;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    background-color: #282828;
+    transition: 0.14s ease-in;
+}
+
+.counter_section button:hover {
+    transform: scale(1.05);
+}
+
+.reset {
+    width: 100px;
+    height: 50px;
+    margin-left: 270px;
+    font-size: 1.6rem;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.12s ease-in;
+}
+
+.reset:hover {
+    transform: scale(1.05);
+}
