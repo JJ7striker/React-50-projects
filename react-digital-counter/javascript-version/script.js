@@ -25,6 +25,7 @@ const createTime = () => {
 
 }
 
+
 setInterval(() => {
     createTime();
 }, 1000)
@@ -35,3 +36,5 @@ const checkZeros = (time) => {
     } 
     return time;
 }
+
+createTime();
