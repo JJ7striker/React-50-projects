@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #282323;
+}
+
+.card {
+    display: block;
+    margin: 50px auto;
+    width: 60%;
+    min-height: auto;
+    background-color: #f5fbe3;
+    padding: 20px;
+    border-radius: 20px;
+    top: 15%;
+    left: 20%;
+}
+
+.question {
+    width: 90%;
+    height: auto;
+    background-color:antiquewhite;
+    margin: 20px;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+.question .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+}
+
+.question .main .btn {
+    font-size: 2rem;
+    margin-left: 30px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    transition: 0.3s;
+    display: inline-flex;
+    outline: none;
+}
+
+.question .main #btn_2 {
+    margin-left: 80px;
+}
+
+.question .main #btn_1 {
+    margin-left: 70px;
+}
+
+.question p {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    line-height: 20px;
+    transition: max-height 0.5s ease-in-out opacity 0.3s ease;
+}
+
+.question .toggle {
+    max-height: 2000px;
+    opacity: 1;
+    padding: 10px 0;
+}
+
+.btn.rotate {
+    transform: rotate(45deg);
+}
+
+@media  screen and (max-width: 320px) {
+    
+}
