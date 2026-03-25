@@ -1,0 +1,26 @@
+# Dependencies (The big stuff we don't want)
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+# Production/Build (The output files)
+build/
+dist/
+
+# Environment/Secrets (Important for security later!)
+.env
+.env.local
+.env.development.local
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor folders
+.vscode/
+.idea/
+.DS_Store
