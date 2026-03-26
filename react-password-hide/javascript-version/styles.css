@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: blueviolet;
+}
+
+h2 {
+    margin-top: 150px;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+#input {
+    width: 20vw;
+    height: 6vh;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-size: 1.3rem;
+    margin: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#checkbox {
+    transform: scale(1.4);
+}
