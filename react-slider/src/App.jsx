@@ -68,9 +68,7 @@ function App() {
   const [currentCard, setCurrentCard] = useState(0);
 
   const previousImg = () => {
-    if (currentCard > 0) {
-    setCurrentCard((prevCard) => prevCard - 1)
-    }
+    setCurrentCard((prevCard) => prevCard > 0 ?  prevCard - 1 : prevCard)
   };
 
   const nextImg = () => {
